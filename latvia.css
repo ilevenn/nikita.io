@@ -1,0 +1,23 @@
+body {
+  background-image: url("img/bckgrnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background-color: transparent;
+  border-radius: 1em;
+  text-align: center;
+  opacity: 0;
+  animation: ani 1.5s forwards;
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.card:hover {
+  background-color: rgba(38, 0, 255, 0.164);
+}
